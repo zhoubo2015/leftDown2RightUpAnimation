@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8547DE6C1C4F81940075D703 /* UIView+GSCircelScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547DE6B1C4F81940075D703 /* UIView+GSCircelScaleAnimation.m */; };
 		856416851C3B4D0F006B9286 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 856416841C3B4D0F006B9286 /* main.m */; };
 		856416881C3B4D0F006B9286 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 856416871C3B4D0F006B9286 /* AppDelegate.m */; };
 		8564168B1C3B4D0F006B9286 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564168A1C3B4D0F006B9286 /* ViewController.m */; };
 		8564168E1C3B4D0F006B9286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8564168C1C3B4D0F006B9286 /* Main.storyboard */; };
 		856416901C3B4D0F006B9286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8564168F1C3B4D0F006B9286 /* Assets.xcassets */; };
 		856416931C3B4D0F006B9286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856416911C3B4D0F006B9286 /* LaunchScreen.storyboard */; };
-		856416B21C3BA65B006B9286 /* UIView+GSCircelScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 856416B11C3BA65B006B9286 /* UIView+GSCircelScaleAnimation.m */; };
 		856416B51C3BAF69006B9286 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 856416B41C3BAF69006B9286 /* BaseView.m */; };
 		856416B81C3BB089006B9286 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 856416B71C3BB089006B9286 /* SecondViewController.m */; };
 		856416BB1C3BBA23006B9286 /* BaseCAShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 856416BA1C3BBA23006B9286 /* BaseCAShapeLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8547DE6A1C4F81940075D703 /* UIView+GSCircelScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GSCircelScaleAnimation.h"; sourceTree = "<group>"; };
+		8547DE6B1C4F81940075D703 /* UIView+GSCircelScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GSCircelScaleAnimation.m"; sourceTree = "<group>"; };
 		856416801C3B4D0F006B9286 /* leftDown2RightUpAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leftDown2RightUpAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		856416841C3B4D0F006B9286 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		856416861C3B4D0F006B9286 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,8 +32,6 @@
 		8564168F1C3B4D0F006B9286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		856416921C3B4D0F006B9286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		856416941C3B4D0F006B9286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		856416B01C3BA65B006B9286 /* UIView+GSCircelScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+GSCircelScaleAnimation.h"; path = "leftDown2RightUpAnimation/UIView+GSCircelScaleAnimation.h"; sourceTree = "<group>"; };
-		856416B11C3BA65B006B9286 /* UIView+GSCircelScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+GSCircelScaleAnimation.m"; path = "leftDown2RightUpAnimation/UIView+GSCircelScaleAnimation.m"; sourceTree = "<group>"; };
 		856416B31C3BAF69006B9286 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		856416B41C3BAF69006B9286 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 		856416B61C3BB089006B9286 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -51,19 +51,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8547DE631C4F793C0075D703 /* GSCircelScaleAnimation */ = {
+		8547DE691C4F81940075D703 /* GSCircelScaleAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				856416B01C3BA65B006B9286 /* UIView+GSCircelScaleAnimation.h */,
-				856416B11C3BA65B006B9286 /* UIView+GSCircelScaleAnimation.m */,
+				8547DE6A1C4F81940075D703 /* UIView+GSCircelScaleAnimation.h */,
+				8547DE6B1C4F81940075D703 /* UIView+GSCircelScaleAnimation.m */,
 			);
-			name = GSCircelScaleAnimation;
+			path = GSCircelScaleAnimation;
 			sourceTree = "<group>";
 		};
 		856416771C3B4D0F006B9286 = {
 			isa = PBXGroup;
 			children = (
-				8547DE631C4F793C0075D703 /* GSCircelScaleAnimation */,
+				8547DE691C4F81940075D703 /* GSCircelScaleAnimation */,
 				856416821C3B4D0F006B9286 /* leftDown2RightUpAnimation */,
 				856416811C3B4D0F006B9286 /* Products */,
 			);
@@ -183,11 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				856416B81C3BB089006B9286 /* SecondViewController.m in Sources */,
+				8547DE6C1C4F81940075D703 /* UIView+GSCircelScaleAnimation.m in Sources */,
 				8564168B1C3B4D0F006B9286 /* ViewController.m in Sources */,
 				856416BB1C3BBA23006B9286 /* BaseCAShapeLayer.m in Sources */,
 				856416881C3B4D0F006B9286 /* AppDelegate.m in Sources */,
 				856416B51C3BAF69006B9286 /* BaseView.m in Sources */,
-				856416B21C3BA65B006B9286 /* UIView+GSCircelScaleAnimation.m in Sources */,
 				856416851C3B4D0F006B9286 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
